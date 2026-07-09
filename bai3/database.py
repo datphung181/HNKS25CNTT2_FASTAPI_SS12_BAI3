@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker , declarative_base
 
-engine = create_engine("mysql+pymysql://root:123456@localhost/fastapi" , pool_pre_ping=True)
+engine = create_engine("mysql+pymysql://root:182007@localhost/fastapi" , pool_pre_ping=True)
 
 SessionLocal = sessionmaker(
     autocommit = False,
